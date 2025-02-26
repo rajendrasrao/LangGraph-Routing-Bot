@@ -10,22 +10,25 @@ Follow these steps to set up and run the project:
 Run the following command to create a new Conda environment named `routerenv` with Python 3.12.3:  
 ```sh
 conda create -p routerenv python=3.12.3
-
-Activate the Conda Environment
+```
+2️⃣ Activate the Conda Environment
+```sh
 Activate the newly created environment:
 conda activate routerenv
-
+```
 Note: If the environment was created in the root folder, copy the full path of the routerenv folder and use it to activate the environment.
 
 3️⃣ Install Dependencies
+```sh
 pip install -r requirements.txt
-
+```
 4️⃣ Set Up the .env File
 OPENAI_API_KEY=your-api-key-here
 
 5️⃣ Run the Streamlit Application
+```sh
 streamlit run run_app.py
-
+```
 Now your project is set up and ready to use! 🚀
 Feel free to contribute and improve the project. 😊
 
