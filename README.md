@@ -34,7 +34,7 @@ below are the streamlit page look like for this application:
 ![Alt Text](image/home.jpg)
 ![Alt Text](image/response_gk.jpg)
 ![Alt Text](image/response_summarize.jpg)
-![Alt Text](image/response_entity.jpg)
+![Alt Text](image/response_entities.jpg)
 
 
 
