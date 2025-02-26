@@ -1,35 +1,32 @@
-Intelligent Query Routing Chatbot
-This repository contains a LangGraph-powered chatbot that intelligently routes user queries to specialized AI agents based on intent. Instead of relying on a single prompt for all tasks, the system efficiently directs queries to the most suitable agent, ensuring better accuracy, efficiency, and modularity.
+# 🚀 Intelligent Query Routing Chatbot  
 
-🔍 Key Features:
-Dynamic Query Routing: Routes user requests to the correct agent based on keywords and intent.
-Multi-Agent System: Supports multiple AI agents, each handling a specific task.
-Streamlit Interface: Provides an interactive web UI for user input and response display.
-Scalable & Modular: Easily add new agents without modifying the core routing logic.
-🤖 Supported AI Agents:
-📚 General Knowledge Agent – Answers factual questions.
-📝 Summarization Agent – Condenses long text into key insights.
-🔍 Entity Extraction Agent – Identifies names, dates, emails, and other key entities.
-🚀 How It Works:
-User Input: The user enters a query, prefixed with keywords like "Summarize", "Extract entities", or "General knowledge".
-Routing Engine: LangGraph analyzes the query and directs it to the correct agent.
-Agent Execution: The selected agent processes the request and returns a response.
-Output Display: The chatbot presents the response via Streamlit.
-⚡ Tech Stack:
-LangGraph – For building the multi-agent workflow.
-LangChain – To power AI-driven responses.
-Streamlit – For a simple and interactive user interface.
-Python – Backend logic and AI processing.
-🎯 Why Use This Chatbot?
-Specialized Task Handling: Ensures accurate results by routing tasks to dedicated agents.
-Better Efficiency: Reduces unnecessary LLM calls by leveraging external tools when needed.
-Scalability: Easily extendable to support additional AI capabilities.
-🛠️ Getting Started:
-Clone the repo, install dependencies, and launch the chatbot with Streamlit. See the README for detailed setup instructions! 🚀
+This project is a LangGraph-powered chatbot that intelligently routes user queries to the appropriate AI agent for **Summarization, Entity Extraction, and General Knowledge Q&A**.  
 
+## 🛠️ Project Setup  
 
+Follow these steps to set up and run the project:  
 
+### **1️⃣ Create a Conda Environment**  
+Run the following command to create a new Conda environment named `routerenv` with Python 3.12.3:  
+```sh
+conda create -p routerenv python=3.12.3
 
+Activate the Conda Environment
+Activate the newly created environment:
+conda activate routerenv
 
+Note: If the environment was created in the root folder, copy the full path of the routerenv folder and use it to activate the environment.
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Set Up the .env File
+OPENAI_API_KEY=your-api-key-here
+
+5️⃣ Run the Streamlit Application
+streamlit run run_app.py
+
+Now your project is set up and ready to use! 🚀
+Feel free to contribute and improve the project. 😊
 
 
