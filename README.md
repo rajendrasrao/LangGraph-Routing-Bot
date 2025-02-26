@@ -29,6 +29,16 @@ OPENAI_API_KEY=your-api-key-here
 ```sh
 streamlit run run_app.py
 ```
+
+below are the streamlit page look like for this application:
+![Alt Text](image/home.jpg)
+![Alt Text](image/response_gk.jpg)
+![Alt Text](image/response_summarize.jpg)
+![Alt Text](image/response_entity.jpg)
+
+
+
+
 Now your project is set up and ready to use! 🚀
 Feel free to contribute and improve the project. 😊
 
