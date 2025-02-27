@@ -29,6 +29,9 @@ OPENAI_API_KEY=your-api-key-here
 ```sh
 streamlit run run_app.py
 ```
+below is how graph flow looks like for this application.
+![Alt Text](image/graph_flow.jpg)
+
 
 below are the streamlit page look like for this application:
 ![Alt Text](image/home.jpg)
